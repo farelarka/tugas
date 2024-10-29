@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir Anggota Perpustakaan</title>
+    <link rel="stylesheet" href="tugas.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Formulir Data Pribadi</h2>
+        <form>
+            <div class="form-group">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama" placeholder="ketikan nama kamu">
+            </div>
+            <div class="form-group">
+                <label for="kota-lahir">Kota Lahir</label>
+                <input type="text" id="kota-lahir" name="kota-lahir" placeholder="ketikan dan/atau pilih nama kota lahir kamu">
+            </div>
+            <div class="form-group">
+                <label for="tanggal-lahir">Tanggal Lahir</label>
+                <input type="date" id="tanggal-lahir" name="tanggal-lahir" placeholder="mm/dd/yyyy">
+            </div>
+            <div class="form-group gender">
+                <label>Gender</label>
+                <label><input type="radio" name="gender" value="pria"> Pria</label>
+                <label><input type="radio" name="gender" value="wanita"> Wanita</label>
+            </div>
+            <div class="form-group">
+                <label for="no-telepon">No Telepon</label>
+                <input type="text" id="no-telepon" name="no-telepon" placeholder="ketikan no telepon kamu">
+            </div>
+            <div class="form-group favorite-food">
+                <label>Makanan Favorit</label>
+                <label><input type="checkbox" name="makanan-favorit" value="Garlic pasta"> garlic pasta</label>
+                <label><input type="checkbox" name="makanan-favorit" value="Nasi goreng"> Nasi goreng</label>
+            </div>
+            <div class="form-group">
+                <label for="agama">Agama</label>
+                <select id="agama" name="agama">
+                    <option value="Pilih">Pilih</option>
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Khatolik">Khatolik</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Buddha">Buddha</option>
+                    <option value="Konghucu">Konghucu</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="alamat">Alamat</label>
+                <textarea id="alamat" name="alamat" rows="4" placeholder="ketikan alamat kamu"></textarea>
+            </div>
+            <div class="form-group buttons">
+                <input type="button" value="Clear">
+                <input type="button" value="Send">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

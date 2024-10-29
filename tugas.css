@@ -1,0 +1,66 @@
+body {
+            background-image:url(bg\ kabah.jpeg);
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 70%;
+            margin: 50px auto;
+            padding: 40px;
+            background-color: rgba(161, 230, 105, 0.747);
+            border: 2px dashed white;
+            border-radius: 15px;
+            color: white;
+        }
+        .container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input[type="text"],
+        .form-group input[type="date"],
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .form-group input[type="radio"],
+        .form-group input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        .form-group .gender,
+        .form-group .favorite-food {
+            display: flex;
+            align-items: center;
+        }
+        .form-group .gender label,
+        .form-group .favorite-food label {
+            margin-right: 20px;
+        }
+        .form-group .gender input,
+        .form-group .favorite-food input {
+            margin-right: 5px;
+        }
+        .form-group .buttons {
+            text-align: center;
+        }
+        .form-group .buttons input[type="button"] {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+        .form-group .buttons input[type="button"]:hover {
+            background-color: #45a049;
+        }
